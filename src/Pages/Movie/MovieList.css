@@ -1,0 +1,10 @@
+.movies-list-content img{
+    height: 20rem;
+}
+
+.movies-list-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

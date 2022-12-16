@@ -1,0 +1,143 @@
+.signIn {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #171717;
+  background-image: url('../../assets/images/bgSignIn.jpg');
+  background-position: center;
+  background-size: cover;
+  flex-wrap: wrap;
+}
+
+.signIn .content {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  width: 70%;
+  border: 1px solid rgb(121, 119, 119);
+  height: 80vh;
+}
+
+.flexStart {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.signIn .right-Section h1 {
+  color: white;
+}
+
+.signIn .right-Section p {
+  color: #eaeaea;
+  font-size: 0.8rem;
+  padding: 1rem 0;
+  font-weight: 200;
+}
+
+#signIn {
+  width: 15rem;
+  margin: 1rem 0;
+  background-color: #000101;
+  border-radius: 0.5rem;
+  font-size: 0.7rem;
+  color: white;
+  padding: 12px 10px;
+  border: 1px solid transparent;
+}
+
+#signIn:hover{
+  background: transparent;
+  border: 1px solid white;  
+}
+
+.signIn .left-Section {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  background:transparent;
+}
+
+.signIn .right-Section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.field {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  color: white;
+}
+
+.field input {
+  width: 13.5rem;
+  margin: 1rem 0;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgb(216, 216, 216);
+  font-size: 0.8rem;
+  text-align: start;
+  padding: 12px 10px;
+}
+
+input::placeholder{
+  color: white;
+}
+
+input:focus {
+  resize: none;
+  outline: none;
+  border: 1px solid rgb(216, 216, 216);
+}
+
+.signUp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signUp h1 {
+  font-weight: 200;
+  color: #e7e7e9;
+  font-size: 0.7rem;
+}
+
+.signUp #joinNow {
+  cursor: pointer;
+  border: transparent;
+  background: transparent;
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: white;
+}
+
+input{
+  color: white;
+}
+
+#joinNow {
+  color: white;
+}
+
+
+#hidePassword{
+  background: none;
+  color: white;
+  border: none;
+  font-size: 0.7rem;
+  font-weight: 200;
+}
+
